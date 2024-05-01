@@ -133,8 +133,8 @@ export class UserComponent implements OnInit {
 }
 ```
 
-
-Go to app.component.ts
+Go to app.component.ts,
+Replace with below code
 ``` ts
 <p class="text-white bg-dark p-3">User Dashboard</p>
 <app-user></app-user>
