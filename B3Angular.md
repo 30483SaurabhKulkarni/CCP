@@ -133,6 +133,11 @@ export class UserComponent implements OnInit {
 }
 ```
 
+Add code in app.component.ts in imports
+``` ts
+import {UserComponent} from "./user/user.component";
+```
+
 Go to app.component.ts,
 Replace with below code
 ``` ts
