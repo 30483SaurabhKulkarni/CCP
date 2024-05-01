@@ -24,6 +24,11 @@ After created, need to go to project directory
 cd my-project
 ```
 
+Add @angular/common
+```
+npm install @angular/common
+```
+
 Add bootstrap in index.html
 ``` HTML
 <!-- Bootstrap Style -->
@@ -135,7 +140,20 @@ export class UserComponent implements OnInit {
 
 Add code in app.component.ts in imports
 ``` ts
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 import {UserComponent} from "./user/user.component";
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, UserComponent],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  title = 'my-angular-project';
+}
 ```
 
 Go to app.component.ts,
