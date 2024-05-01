@@ -1,12 +1,12 @@
 # Node Static Website
 
 Initialize a new Node.js project 
-```
+``` bash
 npm init -y
 ```
 
 Fisrt Install Express
-```
+``` shell
 npm install express
 ```
 
