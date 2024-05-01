@@ -139,3 +139,9 @@ Go to app.component.ts
 <p class="text-white bg-dark p-3">User Dashboard</p>
 <app-user></app-user>
 ```
+
+
+After running this below command, you get link of localhost://4200
+```
+ng serve
+```
