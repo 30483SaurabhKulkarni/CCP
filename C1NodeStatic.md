@@ -17,7 +17,7 @@ npm list express
 
 Add content in server.js
 
-```
+``` js
 const express = require('express');
 const path = require('path');
 
@@ -37,7 +37,7 @@ app.listen(PORT, () => {
 ```
 
 Add content in index.html
-```
+``` html
 <!DOCTYPE html>
 <html lang="en">
 
