@@ -2,7 +2,7 @@
 
 Install Angular In Your Machine Globally
 
-```
+```shell
 npm install -g @angular/cli
 ```
 
